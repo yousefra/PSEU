@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Builder Design Pattern</title>
+
+		<link rel="stylesheet" href="css/main.css" />
+		<!-- Bootstrap 4.3.1 -->
+		<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+	</head>
+	<body>
+		<div class="background-img"></div>
+		<div class="container mt-3">
+			<div class="row">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-12 centered">
+							<button class="btn btn-primary" onclick="generalDentistOnClick()">General Dentist</button>
+							<button class="btn btn-primary" onclick="specialistDentistOnClick()">Specialist Dentist</button>
+						</div>
+          </div>
+          
+					<hr />
+
+					<div id="personalInformation">
+						<div class="row" id="">
+							<h2 class="col-12 centered mb-3">Personal Information</h2>
+							<div class="form-group col-4">
+								<input type="text" class="form-control" placeholder="First Name" />
+							</div>
+							<div class="form-group col-4">
+								<input type="text" class="form-control" placeholder="Last Name" />
+							</div>
+							<div class="form-group col-4">
+								<input type="email" class="form-control" placeholder="Email" />
+							</div>
+							<div class="form-group col-4">
+								<input type="text" class="form-control" placeholder="Phone Number" />
+							</div>
+							<div class="form-group col-8">
+								<input type="text" class="form-control" placeholder="Website" />
+							</div>
+						</div>
+          </div>
+          
+					<div id="biographySection">
+						<hr />
+						<div class="row" id="">
+							<h2 class="col-12 centered mb-3">Biography Section</h2>
+							<div class="form-group col-3">
+								<input type="text" class="form-control" placeholder="Licence Country" />
+							</div>
+							<div class="form-group col-3">
+								<input type="text" class="form-control" placeholder="Licence Number" />
+							</div>
+							<div class="form-group col-3">
+								<input type="number" min="0" class="form-control" placeholder="Years in Practice" />
+							</div>
+							<div class="form-group col-3">
+								<input type="text" class="form-control" placeholder="Gender" />
+							</div>
+						</div>
+					</div>
+
+					<div id="educationSection">
+						<hr />
+						<div class="row" id="">
+							<h2 class="col-12 centered mb-3">Education Section</h2>
+							<div class="form-group col-3">
+								<input type="text" class="form-control" placeholder="Degree" />
+							</div>
+							<div class="form-group col-3">
+								<input type="text" class="form-control" placeholder="Year" />
+							</div>
+							<div class="form-group col-3">
+								<input type="email" class="form-control" placeholder="Major" />
+							</div>
+							<div class="form-group col-3">
+								<input type="text" class="form-control" placeholder="School" />
+							</div>
+						</div>
+					</div>
+
+					<div id="addressSection">
+						<hr />
+						<div class="row" id="">
+							<h2 class="col-12 centered mb-3">Address Section</h2>
+							<div class="form-group col-3">
+								<input type="text" class="form-control" placeholder="Country" />
+							</div>
+							<div class="form-group col-3">
+								<input type="text" class="form-control" placeholder="City" />
+							</div>
+							<div class="form-group col-3">
+								<input type="email" class="form-control" placeholder="State" />
+							</div>
+							<div class="form-group col-3">
+								<input type="text" class="form-control" placeholder="Postal Code" />
+							</div>
+						</div>
+					</div>
+
+					<div id="specializationSection">
+						<hr />
+						<div class="row" id="">
+							<h2 class="col-12 centered mb-3">Specialization Section</h2>
+							<div class="form-group col-9">
+								<input type="text" class="form-control" placeholder="Area of Specialization" />
+							</div>
+							<div class="form-group col-3">
+								<input type="text" class="form-control" placeholder="Start Year" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
