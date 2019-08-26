@@ -43,10 +43,6 @@ public class GeneralDentist implements DentistBuilder {
     public void buildAddress() {
         dentist.setAddress(addresses);
     }
-    
-    public void buildSpecializationArea() {
-//        dentist.setSpecializationArea(specializationAreas);
-    }
 
     @Override
     public Dentist getDentist() {

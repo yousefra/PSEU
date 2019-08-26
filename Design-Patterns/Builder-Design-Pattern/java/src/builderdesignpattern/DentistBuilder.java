@@ -20,7 +20,6 @@ public interface DentistBuilder {
     public void buildPersonalInformation();
     public void buildEducation();
     public void buildAddress();
-    public void buildSpecializationArea();
     public Dentist getDentist(); 
 
 }
