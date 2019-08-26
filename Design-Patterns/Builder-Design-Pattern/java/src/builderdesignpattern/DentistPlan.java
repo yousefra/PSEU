@@ -17,9 +17,8 @@ import java.util.ArrayList;
  */
 public interface DentistPlan {
     
-    void setPersonalInformation();
-    void setEducation();
-    void setAddress();
-    void setSpecializationArea();
+    void setPersonalInformation(PersonalInformation personalInformation);
+    void setEducation(ArrayList<Education> educations);
+    void setAddress(ArrayList<Address> addresses);
     
 }

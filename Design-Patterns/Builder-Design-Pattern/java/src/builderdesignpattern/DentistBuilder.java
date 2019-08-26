@@ -5,6 +5,12 @@
  */
 package builderdesignpattern;
 
+import java.util.ArrayList;
+
+import dentist.Address;
+import dentist.Education;
+import dentist.PersonalInformation;
+
 /**
  *
  * @author yousef
@@ -16,5 +22,5 @@ public interface DentistBuilder {
     public void buildAddress();
     public void buildSpecializationArea();
     public Dentist getDentist(); 
-    
+
 }

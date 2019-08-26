@@ -5,6 +5,12 @@
  */
 package builderdesignpattern;
 
+import dentist.Address;
+import dentist.Education;
+import java.util.ArrayList;
+
+import dentist.PersonalInformation;
+
 /**
  *
  * @author yousef
@@ -12,29 +18,34 @@ package builderdesignpattern;
 public class GeneralDentist implements DentistBuilder {
     
     private Dentist dentist;
+    private PersonalInformation personalInformation;
+    private ArrayList<Education> educations;
+    private ArrayList<Address> addresses;
 
-    public GeneralDentist() {
+    public GeneralDentist(PersonalInformation personalInformation, ArrayList<Education> educations, ArrayList<Address> addresses) {
         this.dentist = new Dentist();
+        this.personalInformation = personalInformation;
+        this.educations = educations;
+        this.addresses = addresses;
     }
     
     @Override
     public void buildPersonalInformation() {
-        dentist.setPersonalInformation();
+        dentist.setPersonalInformation(personalInformation);
     }
 
     @Override
     public void buildEducation() {
-        dentist.setEducation();
+        dentist.setEducation(educations);
     }
 
     @Override
     public void buildAddress() {
-        dentist.setAddress();
+        dentist.setAddress(addresses);
     }
-
-    @Override
+    
     public void buildSpecializationArea() {
-        dentist.setSpecializationArea();
+//        dentist.setSpecializationArea(specializationAreas);
     }
 
     @Override
