@@ -1,2 +1,2 @@
 # PSEU
-Projects added to this repo is part of a software engineering course for a year and a half.
+Projects added to this repo is part of "Palestinian Software Engineering Unit", which is a unit where we practice software engineering concepts.
