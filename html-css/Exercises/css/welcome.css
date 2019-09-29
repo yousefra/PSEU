@@ -1,0 +1,30 @@
+.hello {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello p {
+  color: #FB4D3D;
+  text-transform: uppercase;
+  font-size: 90px;
+}
+
+.outer, .outer::before {
+  position: fixed;
+  background: #345995;
+  width: 110%;
+  height: 338px;
+  border-radius: 50%;
+  left: -5%;
+}
+
+.outer {
+  top: -238px;
+}
+
+.outer::before {
+  content: "";
+  bottom: -238px;
+}

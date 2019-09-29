@@ -1,0 +1,39 @@
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-gap: 50px; */
+  /* grid-template-rows: auto; */
+/* }
+
+.item {
+  background: #8A8A8A;
+} */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 30px;
+  padding: 10px;
+}
+
+.item {
+  background-color: #8A8A8A;
+  /* padding: 30px; */
+  height: 435px;
+}
+
+.item-1 {
+  height: 344px;
+}
+
+.item-2, .item-6 {
+  height: 526px;
+}
+
+.item-4 {
+  height: 475px;
+}
+
+.item-5 {
+  height: 405px;
+}

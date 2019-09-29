@@ -1,0 +1,31 @@
+.container {
+  height: 100%;
+}
+
+.container, .blue, .green, .red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.blue {
+  border: solid 60px #345995;
+  /* background: #34599580; */
+  height: 700px;
+  width: 700px;
+}
+
+.green {
+  border: solid 60px #03CEA4;
+  height: 460px;
+  width: 460px;
+}
+
+.red {
+  background: #FB4D3D;
+  height: 340px;
+  width: 340px;
+  z-index: 3;
+}
